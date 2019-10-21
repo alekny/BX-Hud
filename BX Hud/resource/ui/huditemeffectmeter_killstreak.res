@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"c115"	[$WIN32]
+		"xpos"			"c-70" [$WIN32]
+		"ypos"			"c113"	[$WIN32]
 		"wide"			"100"
 		"tall"			"100"
 		"MeterFG"		"White"
@@ -20,8 +20,8 @@
 		"xpos"						"0"
 		"ypos"						"0"
 		"zpos"						"2"
-		"wide"						"20"
-		"tall"						"20"
+		"wide"						"31"
+		"tall"						"22"
 		"visible"					"1"		
 		"enabled"					"1"
 		"defaultbgcolor_override"	"0 0 0 130"
@@ -33,7 +33,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
+		"xpos"					"34"
 		"ypos"					"27"
 		"zpos"					"2"
 		"wide"					"50"
@@ -55,7 +55,7 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"roboto18"
-		"xpos"					"25"
+		"xpos"					"24"
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"40"
@@ -73,18 +73,18 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"-3"
 		"zpos"					"5"
-		"wide"					"20"
-		"tall"					"20"	
+		"wide"					"31"
+		"tall"					"25"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"roboto18"
+		"font"					"roboto30"
 	}
 }

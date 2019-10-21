@@ -31,10 +31,10 @@
 		"draw_corner_width"	 "5"
 		"draw_corner_height" "5"	
 		
-		if_match
-		{
-			"xpos"			"9999"
-		}
+		//if_match
+		//{
+		//	"xpos"			"9999"
+		//}
 	}
 	"TimePanelProgressBar"
 	{
